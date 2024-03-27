@@ -59,7 +59,7 @@
         fnandsymbols {
             bindings = <
 &kp F1  &kp F2       &kp F3         &kp F4                &kp F5                  &kp F6                &tog 1                                          &mo 3   &kp F7                 &kp F8            &kp F9             &kp F10           &kp F11        &kp F12
-&trans  &trans       &trans         &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES       &trans                &none                                           &none   &kp EQUAL              &kp PLUS          &kp MINUS          &kp UNDERSCORE    &kp BACKSLASH  &trans
+&trans  &trans       &trans         &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES       &kp HASH              &none                                           &none   &kp EQUAL              &kp PLUS          &kp MINUS          &kp UNDERSCORE    &kp BACKSLASH  &trans
 &trans  &trans       &kp LESS_THAN  &kp LEFT_BRACKET      &kp LEFT_BRACE          &kp LEFT_PARENTHESIS  &none       &trans  &trans      &trans  &trans  &none   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &kp GREATER_THAN  &trans         &kp TILDE
 &trans  &trans       &kp UNDER      &kp ASTRK             &kp EXCL                &kp SEMI                                  &trans      &trans                  &kp COLON              &kp QUESTION      &kp DOLLAR         &kp AT_SIGN       &kp PERCENT    &trans
 &trans  &kp PAGE_UP  &kp PAGE_DOWN  &kp LA(LC(UP_ARROW))  &kp LA(LC(DOWN_ARROW))                        &kp RETURN  &trans  &trans      &trans  &trans  &trans                         &kp LA(LC(LEFT))  &kp LA(LC(RIGHT))  &kp HOME          &kp END        &kp LS(LG(NUMBER_4))
