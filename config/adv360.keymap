@@ -33,6 +33,15 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Nav {
+            bindings = <&mo 5>;
+            key-positions = <66 69>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -83,6 +92,16 @@
 &trans  &trans  &kp A   &kp W   &kp D   &kp R   &trans          &kp C      &kp X             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp V   &kp S   &kp F   &trans                             &kp TAB           &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ALT      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Nav {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
