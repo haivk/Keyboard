@@ -70,11 +70,11 @@
 
         Nav {
             bindings = <
-&trans  &trans  &trans         &trans         &trans         &trans         &trans                                      &trans  &trans         &trans         &trans             &trans         &trans  &trans
-&trans  &trans  &trans         &kp LA(LC(I))  &kp LA(LC(R))  &kp LA(LC(T))  &trans                                      &trans  &kp LA(LC(Y))  &kp LA(LC(U))  &kp LA(LC(I))      &trans         &trans  &trans
-&trans  &trans  &kp LA(LC(S))  &kp LA(LC(D))  &kp LA(LC(F))  &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans         &kp LA(LC(J))  &kp LA(LC(K))      &kp LA(LC(L))  &trans  &trans
-&trans  &trans  &trans         &kp LA(LC(C))  &trans         &kp LA(LC(B))                  &trans      &trans                  &kp LA(LC(N))  &trans         &kp LA(LC(COMMA))  &trans         &trans  &trans
-&trans  &trans  &trans         &trans         &trans                        &trans  &trans  &trans      &trans  &trans  &trans                 &trans         &trans             &trans         &trans  &trans
+&trans  &kp LA(LC(NUMBER_1))  &kp LA(LC(NUMBER_2))  &kp LA(LC(NUMBER_3))  &kp LA(LC(NUMBER_4))  &trans         &trans                                      &trans  &trans         &trans         &trans             &trans         &trans  &trans
+&trans  &trans                &trans                &kp LA(LC(I))         &kp LA(LC(R))         &sl 6          &trans                                      &trans  &kp LA(LC(Y))  &kp LA(LC(U))  &kp LA(LC(I))      &trans         &trans  &trans
+&trans  &trans                &kp LA(LC(S))         &kp LA(LC(D))         &kp LA(LC(F))         &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans         &kp LA(LC(J))  &kp LA(LC(K))      &kp LA(LC(L))  &trans  &trans
+&trans  &trans                &trans                &kp LA(LC(C))         &trans                &kp LA(LC(B))                  &trans      &trans                  &kp LA(LC(N))  &trans         &kp LA(LC(COMMA))  &trans         &trans  &trans
+&trans  &trans                &trans                &trans                &trans                               &trans  &trans  &trans      &trans  &trans  &trans                 &trans         &trans             &trans         &trans  &trans
             >;
         };
 
@@ -95,6 +95,16 @@
 &trans  &trans  &kp A   &kp W   &kp D   &kp R   &trans          &kp C      &kp X             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp V   &kp S   &kp F   &trans                             &kp TAB           &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ALT      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        spaces {
+            bindings = <
+&trans  &kp LS(LA(LC(NUMBER_1)))  &kp LS(LA(LC(NUMBER_2)))  &kp LS(LA(LC(NUMBER_3)))  &kp LS(LA(LC(NUMBER_4)))  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                    &trans                    &trans                    &trans                    &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                    &trans                    &trans                    &trans                    &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                    &trans                    &trans                    &trans                    &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                    &trans                    &trans                    &trans                            &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
